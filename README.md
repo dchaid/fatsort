@@ -7,7 +7,9 @@ FATSort is a C utility that sorts FAT12, FAT16 and FAT32 partitions. It even can
 ## Supported platforms
 
 • Linux
+
 • BSD and other UNIX systems
+
 • MacOS X
 
 ## Compilation
