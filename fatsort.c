@@ -225,7 +225,7 @@ int main(int argc, char *argv[]) {
 	// use locale from environment or option
 	locale=setlocale(LC_ALL, OPT_LOCALE);
 	if (locale == NULL) {
-		myerror("Could not set locale!");
+		myerror("Could not set locale!\nMaybe the problem is from the region, if your region is not on United States-American English, change it and try again.");
 		return -1;
 	} else if (strncmp(locale, "C", 1) == 0){
 		myerror("WARNING: The C locale does not support all multibyte characters!");
